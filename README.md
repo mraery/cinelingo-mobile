@@ -1,17 +1,18 @@
-# cinelingo_mobile
+# 🎬 CineLingo - Dizi ve Film Replikleriyle İngilizce Öğren
 
-A new Flutter project.
+CineLingo, popüler yabancı dizi ve filmlerden (Brooklyn 99, Friends, The Lion King, Stranger Things, Titanic vb.) seçilmiş sahnelerle dinleme, anlama ve kelime becerilerinizi geliştiren interaktif Android uygulamasıdır.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📲 APK İndir (Güncel Sürüm v2.0.0)
 
-A few resources to get you started if this is your first Flutter project:
+**[📥 CineLingo.apk İndir (70.97 MB)](https://github.com/mraery/cinelingo-mobile/releases/download/v2.0.0/CineLingo.apk)**
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### ✨ Öne Çıkan Özellikler
+- **52 Seçkin Sahne & 260 Soru:** Her sahne için dinleme, dil bilgisi, kelime ve anlama testleri.
+- **Ferahlatılmış Soru Arayüzü:** Sorular ve cevap şıkları ekranın en üstünde, tek tıkla video boyutunu ayarlayabilme.
+- **Yeni Özel Vektörel Simge:** Sinema klaketi ve diyalog balonu harmanı şık tasarım.
+- **Promosyon & Hile Kodu:** Hediye kutucuğuna `kagan` yazılarak sınırsız can ve OTO-ÇÖZ aktif edilebilir.
+- **Hibrit Oynatıcı:** Hem çevrimdışı gömülü klipler hem de hafif online akış desteği.
