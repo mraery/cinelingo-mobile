@@ -20,11 +20,13 @@ class TranscriptLine {
   final String speaker;
   final String text;
   final String trText;
+  final int? atSecond;
 
   const TranscriptLine({
     required this.speaker,
     required this.text,
     required this.trText,
+    this.atSecond,
   });
 }
 
@@ -46,16 +48,19 @@ class ClipItem {
   final String id;
   final String title;
   final String series;
-  final String level; // A2, B1, B2, C1
+  final String level; // A1, A2, B1, B2, C1
   final String accent; // Amerikan, İngiliz
   final String genre;
   final String youtubeId;
+  final String? videoAsset;
   final int startSeconds;
   final int endSeconds;
   final String description;
   final List<Question> questions;
   final List<TranscriptLine> transcript;
   final List<VocabItem> vocabulary;
+  final bool isVip;
+  final int gemCost;
 
   const ClipItem({
     required this.id,
@@ -65,11 +70,14 @@ class ClipItem {
     required this.accent,
     required this.genre,
     required this.youtubeId,
+    this.videoAsset,
     required this.startSeconds,
     required this.endSeconds,
     required this.description,
     required this.questions,
     required this.transcript,
     required this.vocabulary,
+    this.isVip = false,
+    this.gemCost = 40,
   });
 }
